@@ -310,7 +310,7 @@ footer p{
     }
     .topnav a.icon {
         float: right;
-        display: block;
+        display: block !important;
         position: absolute;
         right: 0px;
     }
