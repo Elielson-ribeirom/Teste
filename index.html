@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML5, CSS3, frontend">
+        <meta name="description" content="Esse e um teste para vaga de frontend.">
+        <meta name="author" content="Elielson Ribeiro Macedo">
+        <meta name="robots" content="index,follow">
+        <title>Teste Elielson</title>
+        <link href="src/css/style.css" type="text/css" rel="stylesheet">
+
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="center">
+                <nav>
+                    <div class="topnav" id="myTopnav">
+                        <a href="#" title="Logo">
+                            <h1>Logo</h1>
+                        </a>
+                        <div class="menu">
+                            <a href="#" title="Home">Home</a>
+                            <a href="#banner">Banner</a>
+                            <a href="#contato">Contato</a>
+                        </div>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="barra"></i>
+                            <i class="barra"></i>
+                            <i class="barra"></i>
+                        </a>
+                    </div>
+                </nav>
+                <div class="header_box">
+                    <div class="header_text">
+                        <h2>Faucibus dolor amet</h2>
+                        <span>Utilizing MicroBachelors programs to jump from Operations Support to Business Analyst in the trucking industry</span>
+                        <a href="#" title="Find Out How" target="_blank">Find Out How</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="center">
+                <div class="banner" id="banner">
+                    <figure>
+                        <span class="trs next"></span>
+                        <span class="trs prev"></span>
+                        <div id="slider">
+                            <a href="#" class="trs">
+                                <img src="src/img/banner1.png" alt="Legenda da imagem 1" />
+                            </a>
+                            <a href="#" class="trs">
+                                <img src="src/img/banner2.png" alt="Legenda da imagem 2" />
+                            </a>
+                            <a href="#" class="trs">
+                                <img src="src/img/banner3.png" alt="Legenda da imagem 3" />
+                            </a>
+                        </div>
+                    </figure>
+                </div>
+                <div class="conteudo">
+                    <div class="texto">
+                        <div class="box_texto">
+                            <strong>Take your career to <span>new heights</span>.</strong>
+                        </div>
+                        <img src="src/img/foto.png" alt="Legenda da foto" />
+                    </div>
+                    <div class="contato" id="contato">
+                        <h3>Formulário de contato</h3>
+                        <form name="f1">
+                            <ul>
+                                <li>
+                                    <label for="nome">Nome completo <span>*</span></label>
+                                    <input type="text" id="nome" name="Nome" placeholder="Nome">
+                                </li>
+                                <li>
+                                    <label for="email">E-mail <span>*</span></label>
+                                    <input type="text" id="email" name="email" placeholder="Email">
+                                </li>
+                                <li>
+                                    <label for="celular">Celular <span>*</span></label>
+                                    <input type="text" id="celular" name="celular" placeholder="(99) 99999-9999">
+                                </li>
+                                <li>
+                                    <label for="assunto">Assunto <span>*</span></label>
+                                    <select name="assunto" id="assunto">
+                                        <option value="selecione">Selecione</option>
+                                        <option value="duvidas">Duvidas</option>
+                                        <option value="conselhos">Conselhos</option>
+                                        <option value="ajuda">Ajuda</option>
+                                        <option value="outros">Outros</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label for="mensagem">mensagem <span>*</span></label>
+                                    <textarea id="mensagem" name="mensagem" placeholder="Mensagem"></textarea>
+                                </li>
+                                <li>
+                                    <button type="button" class="btn">Enviar mensagem</button>
+                                    <!-- <input type="button" id="btn" name="Enviar mensagem" value="Enviar mensagem"> -->
+                                </li>
+                            </ul>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="center">
+                <p>©Copyright teste 2021</p>
+            </div>
+        </footer>
+        <script src="src/js/main.js" type="text/javascript"></script>
+    </body>
+</html>
