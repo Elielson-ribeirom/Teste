@@ -1,3 +1,12 @@
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+};
+
 function setaImagem(){
     var settings = {
         primeiraImg: function(){
@@ -66,7 +75,7 @@ function formulario(){
     const valores = nome.value != '' && email.value != '' && celular.value != '' && assunto.value != 'selecione' && mensagem.value != '';
 
     if (valores) {
-        alert("Obrigado formulario enviado!");
+        alert("Obrigado - Formulário enviado com Sucesso!");
         
         nome.value = '';
         email.value = '';
@@ -144,14 +153,3 @@ window.onload = function(){
 let btn = document.querySelector(".btn");
 
 btn.addEventListener("click", formulario);
-
-
-
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
